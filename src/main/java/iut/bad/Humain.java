@@ -8,4 +8,7 @@ public class Humain {
     public Humain() {
     }
 
+    public void details() {
+        System.out.println(nom + " " + prenom + ", " + age + " ans");
+    }
 }
